@@ -1,6 +1,9 @@
 # CA2254 Logging Experiments
 Practically investigating why "CA2254: Template should be a static expression" exists and what we can do about it.
 
+![image](https://github.com/user-attachments/assets/fbbae513-08ed-476b-854f-1aa7c4ccc35a)
+
+
 ## What is it?
 
 [CA2254: Template should be a static expression](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2254) is a warning that the log message doesn't have a consistent structure due to being interpolated or concatenated. 
