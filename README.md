@@ -123,6 +123,6 @@ When writing a log message, slightly more allocation has come from the template 
 - [CA2254: Template should be a static expression](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2254)
 - [Logging in C# and .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging)
 - [Logging in .NET Core and ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/)
-= [Logging guidance for .NET library authors](https://learn.microsoft.com/en-gb/dotnet/core/extensions/logging-library-authors)
+- [Logging guidance for .NET library authors](https://learn.microsoft.com/en-gb/dotnet/core/extensions/logging-library-authors)
 - [How to use structured logging by NLog](https://github.com/NLog/NLog/wiki/How-to-use-structured-logging)
 - [ZLogger: A zero allocation text/structured logger](https://github.com/Cysharp/ZLogger) (for interest)
