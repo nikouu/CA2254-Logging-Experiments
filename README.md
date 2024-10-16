@@ -28,7 +28,7 @@ _logger.LogInformation("Getting item {Id} at {RunTime}", id, DateTime.Now);
 For example, when logging to Azure Table Storage:
 
 - Each Azure Table entity can have `ID` and `RunTime` properties.
-- Tables with properties simplify queries on logged data. For example, a query can find all logs within a particular RunTime range without having to parse the time out of the text message.
+- Tables with properties simplify queries on logged data. For example, a query can find all logs within a particular `RunTime` range without having to parse the time out of the text message.
 
 Though, it may be the case that you're doing a small hobby project, or throwaway code, or anything that isn't going to have a massive amount of logs to trawl through when a production issue occurs, then you can probably ignore the warning and `#pragma` it away. However, there are also performance implications of using string interpolation regardless of intent of using full blown structured logging.
 
@@ -123,6 +123,6 @@ When writing a log message, slightly more allocation has come from the template 
 - [CA2254: Template should be a static expression](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2254)
 - [Logging in C# and .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging)
 - [Logging in .NET Core and ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/)
-= [Logging guidance for .NET library authors](https://learn.microsoft.com/en-gb/dotnet/core/extensions/logging-library-authors)
+- [Logging guidance for .NET library authors](https://learn.microsoft.com/en-gb/dotnet/core/extensions/logging-library-authors)
 - [How to use structured logging by NLog](https://github.com/NLog/NLog/wiki/How-to-use-structured-logging)
 - [ZLogger: A zero allocation text/structured logger](https://github.com/Cysharp/ZLogger) (for interest)
