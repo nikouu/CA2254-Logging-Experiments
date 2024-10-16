@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton<WeatherService>();
 
 builder.Logging.ClearProviders();
-builder.Logging.AddConsole().SetMinimumLevel(LogLevel.Warning);
+builder.Logging.AddConsole().SetMinimumLevel(LogLevel.Information);
 
 var app = builder.Build();
 
