@@ -28,7 +28,7 @@ _logger.LogInformation("Getting item {Id} at {RunTime}", id, DateTime.Now);
 For example, when logging to Azure Table Storage:
 
 - Each Azure Table entity can have `ID` and `RunTime` properties.
-- Tables with properties simplify queries on logged data. For example, a query can find all logs within a particular RunTime range without having to parse the time out of the text message.
+- Tables with properties simplify queries on logged data. For example, a query can find all logs within a particular `RunTime` range without having to parse the time out of the text message.
 
 Though, it may be the case that you're doing a small hobby project, or throwaway code, or anything that isn't going to have a massive amount of logs to trawl through when a production issue occurs, then you can probably ignore the warning and `#pragma` it away. However, there are also performance implications of using string interpolation regardless of intent of using full blown structured logging.
 
